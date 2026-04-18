@@ -12,6 +12,7 @@ A robust Django REST framework backend for the Devora Learning App, featuring sp
 ## 🛠️ Technology Stack
 
 - **Framework**: [Django 5](https://www.djangoproject.com/)
+- **GEMINI API**:[Google Studio]()
 - **API**: [Django REST Framework](https://www.django-rest-framework.org/)
 - **Documentation**: [drf-spectacular](https://drf-spectacular.readthedocs.io/)
 - **Database**: PostgreSQL (Production) / SQLite (Local)
@@ -42,6 +43,7 @@ A robust Django REST framework backend for the Devora Learning App, featuring sp
    DEBUG=True
    SECRET_KEY=your-local-secret-key
    ALLOWED_HOSTS=*
+   GEMINI_API_KEY
    ```
 
 5. **Run Migrations**:
@@ -70,6 +72,7 @@ Once the server is running, you can access the documentation at:
 Ensure the following are set in the Render dashboard:
 - `PYTHON_VERSION`: `3.11` (or your preferred version)
 - `SECRET_KEY`: A secure random string
+- `GEMINI_KEY`: Gemini API
 - `DEBUG`: `False`
 - `DATABASE_URL`: Your PostgreSQL connection string (Render provides this if using their managed DB)
 - `ALLOWED_HOSTS`: `your-app-name.onrender.com`
