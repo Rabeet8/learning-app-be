@@ -1,0 +1,9 @@
+django
+djangorestframework
+drf-spectacular
+gunicorn
+whitenoise[brotli]
+dj-database-url
+python-dotenv
+PyYAML
+google-generativeai
